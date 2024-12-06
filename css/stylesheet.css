@@ -47,9 +47,11 @@ img {
 /* #region header-page */
 
 .header-page {
+  display: flex;
   border-bottom: 1px solid #e7e9fc;
 }
 .nav-page {
+  display: flex;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
