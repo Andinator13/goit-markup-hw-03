@@ -31,6 +31,14 @@ img {
   display: block;
 }
 
+.container {
+  max-width: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 /* #region header-page */
 
 .header-page {
