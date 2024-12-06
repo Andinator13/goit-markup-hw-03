@@ -220,6 +220,12 @@ img {
 .team {
   background-color: #f4f4fd;
 }
+
+.team-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .team-heading {
   font-weight: 700;
   font-size: 36px;
@@ -245,6 +251,10 @@ img {
   margin-right: 0;
 }
 
+.team-item:first-child {
+  width: calc((100% - 72px) / 4);
+}
+
 .team-sub-heading {
   font-weight: 500;
   font-size: 20px;
@@ -252,6 +262,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-paragraph {
   font-weight: 400;
