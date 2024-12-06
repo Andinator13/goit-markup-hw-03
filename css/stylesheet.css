@@ -27,6 +27,10 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
 /* #region header-page */
 
 .header-page {
