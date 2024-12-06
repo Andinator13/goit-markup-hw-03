@@ -49,6 +49,12 @@ img {
 .header-page {
   display: flex;
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-container {
+  display: flex;
 }
 .nav-page {
   display: flex;
@@ -80,7 +86,13 @@ img {
   gap: 40px;
 }
 .list-item {
+  margin-right: 40px;
 }
+
+.list-item:last-child {
+  margin-right: 0;
+}
+
 .list-item-link {
   font-weight: 500;
   font-size: 16px;
@@ -219,9 +231,15 @@ img {
 }
 .team-list {
   display: flex;
+  gap: 24px;
 }
 .team-item {
   background-color: #ffffff;
+  margin-right: 24px;
+}
+
+.team-item:last-child {
+  margin-right: 0;
 }
 .team-img {
 }
