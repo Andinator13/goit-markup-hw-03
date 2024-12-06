@@ -168,12 +168,24 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .benefits-list {
   display: flex;
+  gap: 24px;
 }
 .benefits-item {
+  margin-right: 24px;
 }
+
+.benefits-item:last-child {
+  margin-right: 0;
+}
+
+.benefits-item:first-child {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
 .benefits-sub-heading {
   font-weight: 500;
   font-size: 20px;
@@ -203,6 +215,7 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
