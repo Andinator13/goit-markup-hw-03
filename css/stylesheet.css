@@ -39,6 +39,11 @@ img {
   margin-right: auto;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* #region header-page */
 
 .header-page {
