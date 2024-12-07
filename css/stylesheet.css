@@ -49,8 +49,6 @@ img {
 .header-page {
   display: flex;
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-container {
@@ -87,6 +85,8 @@ img {
 }
 .list-item {
   margin-right: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .list-item:last-child {
