@@ -240,8 +240,8 @@ img {
 
 .team-item {
   background-color: #ffffff;
-  margin-right: 24px;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-item:last-child {
