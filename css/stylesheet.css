@@ -188,15 +188,11 @@ img {
   gap: 24px;
 }
 .benefits-item {
-  margin-right: 24px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .benefits-item:last-child {
   margin-right: 0;
-}
-
-.benefits-item:first-child {
-  width: calc((100% - 3 * 24px) / 4);
 }
 
 .benefits-sub-heading {
