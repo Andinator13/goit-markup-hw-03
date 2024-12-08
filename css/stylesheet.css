@@ -71,6 +71,7 @@ img {
 .nav-page {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -98,7 +99,6 @@ img {
   gap: 40px;
 }
 .list-item {
-  margin-right: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -124,6 +124,7 @@ img {
 
 .address-list {
   display: flex;
+  gap: 40px;
 }
 
 .header-address {
@@ -162,6 +163,9 @@ img {
   text-align: center;
   color: #ffffff;
   max-width: 496px;
+  margin-right: auto;
+  margin-bottom: 48px;
+  margin-left: auto;
 }
 
 .hero-button {
@@ -176,6 +180,8 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-button:hover,
